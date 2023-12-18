@@ -1,4 +1,5 @@
 use helpers::{print_day, print_solution, read_input};
+use rayon::prelude::*;
 
 mod helpers;
 
