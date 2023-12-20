@@ -15,3 +15,8 @@ touch $FOLDER/src/example_2.txt
 touch $FOLDER/src/input.txt
 
 cp rust-template/.gitignore $FOLDER
+
+cd $FOLDER
+
+cargo add itertools
+cargo add rayon
